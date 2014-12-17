@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/color_green">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="DETTAGLI ACCOUNT"
+            android:id="@+id/lb_dettagliAcc"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:typeface="sans"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nome Conto"
+            android:id="@+id/lb_dettNomeConto"
+            android:textColor="@color/color_green"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:id="@+id/txt_dettNomeConto"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Saldo attuale"
+                android:id="@+id/lb_dettSaldoAtt"
+                android:textColor="@color/color_green"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:id="@+id/txt_dettSaldoAtt"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Saldo Iniziale"
+                android:id="@+id/lb_dettSaldoIniz"
+                android:textColor="@color/color_green"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:id="@+id/txt_dettSaldoIniz"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+
+        </TableRow>
+        <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Descrizione"
+            android:id="@+id/lb_dettDescrizione"
+            android:textColor="@color/color_green"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="-"
+            android:singleLine="false"
+            android:id="@+id/txt_dettDescrizione"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_weight="0"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elimina Account"
+                android:id="@+id/bt_eliminaAccount"
+                android:background="@drawable/green_button"
+                style="@style/button_text"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

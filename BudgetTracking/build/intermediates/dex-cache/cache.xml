@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\frank_000\AndroidStudioProjects\BudgetTracking\Budget Tracking\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-61dee3be4086ea67646d7a55078705c682c72e11.jar"
+        jar="C:\Users\frank_000\AndroidStudioProjects\BudgetTracking\Budget Tracking\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="C:\Users\frank_000\AndroidStudioProjects\BudgetTracking\Budget Tracking\build\intermediates\pre-dexed\debug\itextpdf-5.5.3-012adcd824bff45aa91e5f43d9966bfe40117a59.jar"
+        jar="C:\Users\frank_000\AndroidStudioProjects\BudgetTracking\Budget Tracking\libs\itextpdf-5.5.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ea94efc32c51c0c6c2965d58597fa2dcffc4645c"/>
+    <item
+        dex="C:\Users\frank_000\AndroidStudioProjects\BudgetTracking\Budget Tracking\build\intermediates\pre-dexed\debug\achartengine-1.1.0-f9a262cece50f5d12c28aa90bcc1ea82c4c736b1.jar"
+        jar="C:\Users\frank_000\AndroidStudioProjects\BudgetTracking\Budget Tracking\libs\achartengine-1.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250"/>
+    <item
+        dex="C:\Users\frank_000\AndroidStudioProjects\BudgetTracking\Budget Tracking\build\intermediates\pre-dexed\debug\classes-48a1b9a5eb82d9d21a0baf5a02e121cd8e787127.jar"
+        jar="C:\Users\frank_000\AndroidStudioProjects\BudgetTracking\Budget Tracking\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="C:\Users\frank_000\AndroidStudioProjects\BudgetTracking\Budget Tracking\build\intermediates\pre-dexed\debug\classes-311ca731c36487b899a7dc14e6103350560fd011.jar"
+        jar="C:\Users\frank_000\AndroidStudioProjects\BudgetTracking\Budget Tracking\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.71\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da"/>
+    <item
+        dex="C:\Users\frank_000\AndroidStudioProjects\BudgetTracking\Budget Tracking\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-559373079e14e8250ca3c7b7dfa263f9cfd4cf02.jar"
+        jar="C:\Users\frank_000\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="C:\Users\frank_000\AndroidStudioProjects\BudgetTracking\Budget Tracking\build\intermediates\pre-dexed\debug\classes-b30ea4fd7a797df12f0290cf51486e9bcca3ff86.jar"
+        jar="C:\Users\frank_000\AndroidStudioProjects\BudgetTracking\Budget Tracking\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+
+</pre-dex-items>

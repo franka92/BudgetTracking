@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Budget Tracking</string>
+    <string name="title_riepilogo">Riepilogo</string>
+    <string name="title_addOperazione">Aggiungi Pagamento</string>
+    <string name="title_addEntrata">Aggiungi Entrata</string>
+    <string name="title_visualizzaSpese">Lista movimenti</string>
+    <string name="title_opGiornaliere">Operazioni giornaliere</string>
+    <string name="title_opSettimanali">Operazioni settimanali</string>
+    <string name="title_opMensili">Operazioni mensili</string>
+    <string name="title_statistiche">Statistiche</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Mezzi per la transazione: Contanti, carta di credito, assegno, altro -->
+    <string-array name="array_mezzi">
+        <item>contanti</item>
+        <item>carta di credito</item>
+        <item>assegno</item>
+        <item>bonifico</item>
+        <item>altro</item>
+    </string-array>
+
+    <string-array name="categoria_pagamenti">
+        <item>abbigliamento</item>
+        <item>animali</item>
+        <item>bollette</item>
+        <item>casa</item>
+        <item>hobby</item>
+        <item>istruzione</item>
+        <item>lavoro</item>
+        <item>multe</item>
+        <item>salute</item>
+        <item>trasporti</item>
+        <item>vacanze</item>
+        <item>altro</item>
+    </string-array>
+
+    <string-array name="categoria_entrate">
+        <item>assegno</item>
+        <item>regalo</item>
+        <item>stipendio</item>
+        <item>altro</item>
+    </string-array>
+
+    <!-- Ripetizione operazione: mensile, bimensile, trimestrale, semestrale, annuale -->
+    <string-array name="array_periodico">
+        <item>giornaliera</item>
+        <item>settimanale</item>
+        <item>mensile</item>
+    </string-array>
+
+    <!-- Array con i mesi dell'anno -->
+    <string-array name="array_mesi">
+        <item>Gennaio</item>
+        <item>Febbraio</item>
+        <item>Marzo</item>
+        <item>Aprile</item>
+        <item>Maggio</item>
+        <item>Giugno</item>
+        <item>Luglio</item>
+        <item>Agosto</item>
+        <item>Settembre</item>
+        <item>Ottobre</item>
+        <item>Novembre</item>
+        <item>Dicembre</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_filtra_operazioni">FiltraOperazioni</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

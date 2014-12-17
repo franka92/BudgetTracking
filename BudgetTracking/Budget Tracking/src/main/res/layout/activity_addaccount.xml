@@ -1,0 +1,145 @@
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3f4649"
+        android:layout_centerHorizontal="true">
+    <!-- TITOLO SETTIMANA -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/color_green">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CREA ACCOUNT"
+            android:id="@+id/titolo_statistiche"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center"
+                                                                                            android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campi Obbligatori"
+            android:id="@+id/obbAcc"
+            android:layout_column="0"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_span="3"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome Account"
+                android:id="@+id/nomeAcc"
+                android:layout_column="0"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNomeAcc"
+                android:layout_column="2"
+                android:inputType="text"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textColor="#ffffff"/>
+        </TableRow>
+
+
+
+    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conto"
+            android:id="@+id/contoAcc"
+            android:layout_column="0"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:id="@+id/txtContoAcc"
+            android:layout_column="2"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textColor="#ffffff"/>
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campi Opzionali"
+            android:id="@+id/opzAcc"
+            android:layout_column="0"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_span="3"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </TableRow>
+
+    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrizione"
+            android:id="@+id/descAcc"
+            android:layout_column="0"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDescAcc"
+            android:layout_column="2"
+            android:inputType="text"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textColor="#ffffff"/>
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center"
+        android:padding="5dp" >
+
+        <Button android:text="Conferma"
+            android:id="@+id/btConfAcc"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/green_button"
+            style="@style/button_text"/>
+        <Button android:text="Annulla"
+            android:id="@+id/btAnnAcc"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/green_button"
+            style="@style/button_text"/>
+
+
+    </TableRow>
+   </TableLayout>
+

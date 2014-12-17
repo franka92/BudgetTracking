@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal"
+        android:fillViewport="false"
+        android:layout_weight="0.37">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:id="@+id/text_intro"/>
+    </ScrollView>
+            <!--android:text="Budget Tracking è un'applicazione che vi permette di gestire facilmente le vostre finanze. In particolare l'app permette di tenere traccia delle spese giornaliere/mensili e delle entrate, gestire la pianificazione di spese periodiche. Le voci di entrate/uscite vengono create automaticamente sulla base di un modello standard che si adatta alla maggior parte delle situazioni, con la possibilità di inserire, per ciascun pagamento, una categoria di appartenzenza, il luogo in cui è stato effettuato e un'eventuale foto aggiuntiva. Sono presenti filtri che permettono di monitorare accuratamente l'evoluzione delle vostre spese a seconda delle esigenze (ad esempio suddivise per categoria, o fascia di costo). L'applicazione permette di generare utili grafici, che vi daranno la possibilità di visualizzare in modo chiaro e sintetico tutte le vostre transazioni; inoltre viene offerta la possibilità di esportare la lista delle proprie spese in formato pdf.  Per iniziare ad utilizzare l'applicazione occorre configurare il proprio account" />-->
+
+    <Button
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:text="Inizia"
+        android:id="@+id/bt_inizia"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"/>
+
+
+
+</LinearLayout>

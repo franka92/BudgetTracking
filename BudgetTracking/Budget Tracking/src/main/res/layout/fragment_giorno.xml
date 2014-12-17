@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_background">
+
+
+    <!-- TITOLO FINESTRA -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/color_green"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/lb_frag_giorno_titolo"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textAlignment="center"
+            android:text="VISUALIZZA OPERAZIONI GIORNALIERE"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Seleziona una data:"
+            android:id="@+id/lb_dataFiltro"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textSize="20dp"
+            android:id="@+id/txt_selectData"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textAlignment="center"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aggiorna"
+            android:id="@+id/bt_aggiornaElenco"
+            android:background="@drawable/green_button"
+            style="@style/button_text"/>
+    </LinearLayout>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:id="@+id/frag_giorno_scroll"
+        android:background="@color/color_background"
+        android:layout_weight="1">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/table_listaOp_giorno">
+        </TableLayout>
+    </ScrollView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3f4649"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_weight="0"
+            android:layout_height="wrap_content"
+            android:background="@color/color_tot_entrate">
+            <TextView
+                android:id="@+id/txt_total"
+                android:text="TOTALE ENTRATE:"
+                style="@style/text_titolo_totale"
+                android:layout_column="1"/>
+            <TextView
+                android:id="@+id/txt_total_value"
+                android:text="+43€"
+                style="@style/text_lista_operazioni"
+                android:layout_column="2"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_weight="0"
+            android:layout_height="wrap_content"
+            android:background="#e26969">
+            <TextView
+                android:id="@+id/txt_total2"
+                android:text="TOTALE USCITE:"
+                style="@style/text_titolo_totale"
+                android:layout_column="1"/>
+            <TextView
+                android:id="@+id/txt_total2_value"
+                android:text="-500€"
+                style="@style/text_lista_operazioni"
+                android:layout_column="2"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_weight="0"
+            android:layout_height="wrap_content"
+            android:background="@color/color_background"
+            android:gravity="center_horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Genera PDF"
+                android:id="@+id/bt_generaPDF"
+                android:background="@drawable/green_button"
+                style="@style/button_text"
+                android:layout_span="2"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

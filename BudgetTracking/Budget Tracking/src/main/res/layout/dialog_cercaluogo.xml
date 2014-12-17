@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/color_green">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CERCA LUOGO"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:typeface="sans"/>
+
+    </LinearLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_background">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#2d2f31"
+            android:layout_marginTop="5dp">
+            <EditText
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_cercaluogoOperazione"
+                android:inputType="text"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textColor="#ffffff"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"/>
+            <Button android:text="Cerca"
+                android:id="@+id/bt_cercaluogoOperazione"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/green_button"
+                style="@style/button_text"
+                android:layout_column="2"
+                android:width="100dp"
+                android:height="20dp"/>
+        </TableRow>
+        </TableLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Seleziona un luogo (cliccandoci sopra)"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:typeface="sans"
+            android:visibility="invisible"
+            android:id="@+id/lb_selezionaLuogo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_background">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_background"
+            android:id="@+id/tbl_elencoLuoghi">
+        </TableLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Annulla"
+            android:id="@+id/bt_annullaLuogo"
+            android:background="@drawable/green_button"
+            style="@style/button_text"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

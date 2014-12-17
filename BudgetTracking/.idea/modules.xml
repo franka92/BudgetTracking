@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Budget Tracking/Budget Tracking.iml" filepath="$PROJECT_DIR$/Budget Tracking/Budget Tracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BudgetTracking.iml" filepath="$PROJECT_DIR$/BudgetTracking.iml" />
+    </modules>
+  </component>
+</project>
+

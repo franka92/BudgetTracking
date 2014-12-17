@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="giulia.budgettracking.main" >
+    <item
+        android:id="@+id/menu_addPagamento"
+        app:showAsAction="ifRoom"
+        android:title="Pagamento"
+        android:icon="@drawable/ic_add_pagamento"/>
+    <item
+        android:id="@+id/menu_addEntrata"
+        app:showAsAction="ifRoom"
+        android:title="Entrata"
+        android:icon="@drawable/ic_add_entrata"/>
+</menu>

@@ -1,0 +1,14 @@
+Budget Tracking è un'applicazione che ti permette di gestire facilmente le tue finanze. 
+In particolare l'app permette di tenere traccia delle spese e delle entrate giornaliere e di gestire la pianificazione di spese periodiche. 
+E' possibile interagire con l'app tramite un semplice menù, le cui voci principali sono:
+
+-Aggiungi uscita: ti permette di inserire le informazioni relative a una spesa effettuata o che hai pianificato per il futuro; è inoltre possibile gestire spese periodiche.
+-Aggiungi entrata: ti permette di inserire le informazioni relative ad un accredito ricevuto o che avverrà in futuro; è inoltre possibile gestire entrate periodiche.
+-Operazioni giornaliere: permette di visualizzare l'elenco delle operazioni relative alla data selezionata
+-Operazioni settimanali: permette di visualizzare l'elenco delle operazioni effettuate nell'arco della settimana corrente.
+-Operazioni mensili: permette di visualizzare l'elenco delle operazioni effettuate nell'arco del mese corrente
+-Statistiche: visualizza utili grafici relativi alle transazioni effettuate.
+
+All'avvio dell'app verrà visualizzata una schermata di riepilogo, con le informazioni relative al saldo attuale, la lista delle ultime operazioni effettuate e un grafico che mette in evidenza la percentuale delle uscite e delle entrate.
+
+Clicca su "avanti" per configurare il tuo account e iniziare ad usare l'applicazione!
